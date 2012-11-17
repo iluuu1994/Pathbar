@@ -111,8 +111,4 @@
     [rightArrow drawInRect:rightArrowRect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1.0 respectFlipped:YES hints:nil];
 }
 
-- (unsigned long long)_textAlignmentForCanCacheTextBoundingRect {
-    return NSLeftTextAlignment;
-}
-
 @end
