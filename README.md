@@ -1,8 +1,8 @@
 ITPathbar
-========
+=========
 
 Usage
----------
+-----
 
 You want to use ITPathbar? Cool, I'm glad!
 
