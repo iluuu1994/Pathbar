@@ -1,6 +1,8 @@
 ITPathbar
 =========
 
+<img src="http://www.ilijatovilo.ch/github/itpathbar.png" />
+
 Usage
 -----
 
