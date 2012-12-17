@@ -30,6 +30,7 @@
 // EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "ITPathbarComponentCell.h"
+#import "ITPathbar.h"
 
 @implementation ITPathbarComponentCell
 
@@ -43,6 +44,17 @@
 - (BOOL)isFirstItem {
     return [[self valueForKey:@"_isFirstItem"] boolValue];
 }
+/*
+ * Lion workaround
+- (BOOL)isLastItem {
+    NSArray *cells = [(ITPathbar *)[self controlView] pathComponentCells];
+    return ([cells lastObject] == self);
+}
+
+- (BOOL)isFirstItem {
+    NSArray *cells = [(ITPathbar *)[self controlView] pathComponentCells];
+    return (cells[0] == self);
+}*/
 
 - (BOOL)isHighlighted {
     if ([self isLastItem]) {
