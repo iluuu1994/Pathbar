@@ -27,7 +27,7 @@ You can also either copy all the images from the sample project, or you can draw
 
 `ITPathbar` is simple to use.
 Just drag a `NSView` onto your window in Interace Builder.
-Then set it's custom class `ITPathbar. That's it!
+Then set it's custom class `ITPathbar`. That's it!
 
 Now just connect an Outlet to it and you can add and remove items like this:
 
