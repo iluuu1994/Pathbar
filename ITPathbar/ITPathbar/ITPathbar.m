@@ -37,7 +37,18 @@
     return [ITPathbarCell class];
 }
 
+- (void)pinHeight {
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:self
+                                                     attribute:NSLayoutAttributeHeight
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:nil
+                                                     attribute:NSLayoutAttributeNotAnAttribute
+                                                    multiplier:1.0f
+                                                      constant:self.frame.size.height]];
+}
+
 - (void)awakeFromNib {
+    [self pinHeight];
     [self setPathStyle:NSPathStyleNavigationBar];
     [self setFocusRingType:NSFocusRingTypeNone];
 }
@@ -68,6 +79,10 @@
 
 - (void)removeLastItem {
     [self removeItemAtIndex:(self.pathComponentCells.count - 1)];
+}
+
+- (NSSize)intrinsicContentSize {
+    return NSMakeSize(NSViewNoInstrinsicMetric, NSViewNoInstrinsicMetric);
 }
 
 @end
