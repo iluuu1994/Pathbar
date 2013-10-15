@@ -1,12 +1,12 @@
 ITPathbar
 =========
 
-<img src="http://www.ilijatovilo.ch/github/itpathbar.png" />
+![](./itpathbar.png)
 
 Usage
 -----
 
-You want to use `ITPathbar? Cool, I'm glad!
+You want to use `ITPathbar`? Cool, I'm glad!
 
 ### Copy files
 
