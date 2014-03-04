@@ -3,6 +3,14 @@ ITPathbar
 
 ![](./itpathbar.png)
 
+Caution
+-------
+
+`ITPathbar` uses private API.  
+One of my apps on the Mac App Store is using it though.  
+I'm not completely sure of why Apple allowed this, so I can't promise anything.
+
+
 Usage
 -----
 
