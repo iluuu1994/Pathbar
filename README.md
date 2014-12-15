@@ -3,6 +3,14 @@ ITPathbar
 
 ![](./itpathbar.png)
 
+Deprecated
+----------
+
+`ITPathbar` depends on `NSCell` which is soon to be deprecated.
+As of right now, I don't recommend using this control in new projects.
+
+I'm currently working on `ITPathbar` **v2.0** that uses NSView and Core Animation which will be a much better fit for modern hardware. I'll release it once it's usable.
+
 Caution
 -------
 
