@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0450"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91A250491656A0C40006BBCF"
+               BlueprintIdentifier = "9136D0C41A34A5CF00CE1793"
                BuildableName = "ITPathbar.app"
                BlueprintName = "ITPathbar"
+               ReferencedContainer = "container:ITPathbar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9136D0D71A34A5CF00CE1793"
+               BuildableName = "ITPathbarTests.xctest"
+               BlueprintName = "ITPathbarTests"
                ReferencedContainer = "container:ITPathbar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,11 +42,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9136D0D71A34A5CF00CE1793"
+               BuildableName = "ITPathbarTests.xctest"
+               BlueprintName = "ITPathbarTests"
+               ReferencedContainer = "container:ITPathbar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91A250491656A0C40006BBCF"
+            BlueprintIdentifier = "9136D0C41A34A5CF00CE1793"
             BuildableName = "ITPathbar.app"
             BlueprintName = "ITPathbar"
             ReferencedContainer = "container:ITPathbar.xcodeproj">
@@ -51,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91A250491656A0C40006BBCF"
+            BlueprintIdentifier = "9136D0C41A34A5CF00CE1793"
             BuildableName = "ITPathbar.app"
             BlueprintName = "ITPathbar"
             ReferencedContainer = "container:ITPathbar.xcodeproj">
@@ -69,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91A250491656A0C40006BBCF"
+            BlueprintIdentifier = "9136D0C41A34A5CF00CE1793"
             BuildableName = "ITPathbar.app"
             BlueprintName = "ITPathbar"
             ReferencedContainer = "container:ITPathbar.xcodeproj">

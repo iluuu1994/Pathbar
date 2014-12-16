@@ -3,53 +3,12 @@ ITPathbar
 
 ![](./itpathbar.png)
 
-Deprecated
+In progress
 ----------
 
-`ITPathbar` depends on `NSCell` which is soon to be deprecated.
-As of right now, I don't recommend using this control in new projects.
+`ITPathbar v2.0` is still in progress and not ready for production. 
 
-I'm currently working on `ITPathbar` **v2.0** that uses NSView and Core Animation which will be a much better fit for modern hardware. I'll release it once it's usable.
-
-Caution
+Support
 -------
-
-`ITPathbar` uses private API.  
-One of my apps on the Mac App Store is using it though.  
-I'm not completely sure of why Apple allowed this, so I can't promise anything.
-
-
-Usage
------
-
-You want to use `ITPathbar`? Cool, I'm glad!
-
-### Copy files
-
-You have to copy the following files in order to get `ITPathbar` working:
-
-* `ITPathbar.h`
-* `ITPathbar.m`
-* `ITPathbarCell.h`
-* `ITPathbarCell.m`
-* `ITPathbarComponentCell.h`
-* `ITPathbarComponentCell.m`
-
-Make sure to copy them to the project, and to add them to the target.
-
-You can also either copy all the images from the sample project, or you can draw your own component cells.
-
-### Use in a project
-
-`ITPathbar` is simple to use.
-Just drag a `NSView` onto your window in Interace Builder.
-Then set it's custom class `ITPathbar`. That's it!
-
-Now just connect an Outlet to it and you can add and remove items like this:
-
-    [self.pathbar insertItemWithTitle:@"Component title" atIndex:0];
-    [self.pathbar addItemWithTitle:@"Component title"];
-    [self.pathbar removeItemAtIndex:0];
-    [self.pathbar removeLastItem];
 
 If you have any questions, feel free to let me know at support@ilijatovilo.ch

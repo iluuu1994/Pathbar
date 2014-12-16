@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AppDelegate.h
 //  ITPathbar
 //
 //  Created by Ilija Tovilo on 07/12/14.
@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+
+@end
+
